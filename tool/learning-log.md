@@ -12,6 +12,7 @@
     * Saw many arrays designed for the npcs being the ghosts and the player
     * Uses sprite to add ghost
     * I wonder if sprite is also used to animate the player
+* Observed through (Cli link)[https://www.npmjs.com/package/create-kaboom] saw a starting script of javascript code to help start a kaboom project 
 * The characters come from pngs and added sprite to animate like rotate
 * In kaboom strings can be used to define behaviors for certain groups
     * Can there be a limit for using a string like for example can the ghost be friendly and aggresive depending on the scenario?
