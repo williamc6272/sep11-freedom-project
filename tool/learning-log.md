@@ -19,7 +19,7 @@
 * One challenge I have for this is `readd(greenBean)` what if user only wants a specific green beam to be re added is there another way to readd certain green beans?
 * Next I will use Howler as Kaboom is mainly a game coder and my idea isn't really a game but rather an app that helps a user isn't meant to be fun rather helpful.
 
-
+## Learning log 2
 ### 11/9/26:
 * Switched to Howler because my project is more of an app than a game.
 * Explored through the Howler Audio Sprite videos which reveal different sounds and beats.
