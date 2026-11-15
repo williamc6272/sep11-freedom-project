@@ -3,7 +3,11 @@
 ## Content
 I went through a variety of tools
 Text
+## Engineering Design Process
 
+## Skills
+
+## Summary
 [Next](entry02.md)
 
 [Home](../README.md)
