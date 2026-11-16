@@ -5,6 +5,7 @@ For my final freedom project, I decided to focus on math and an alarm. I chose t
 
 
 ## Engineering Design Process
+The first step of my engineering design process is identifying the problem I want to solve. I noticed that some people struggle to wake up feeling refreshed in the morning, so I came up with the idea of creating an alarm that requires users to solve math questions to turn it off. Next, I will research and explore different ways to build my project using JavaScript and Howler.js. I will also watch videos and tutorials about Howler.js to understand how its features work and how I can use them in my project. After researching, I will plan how the alarm, math questions, and sounds will work together. Then, I will begin creating my project, testing its different features, and fixing any problems I encounter. Finally, I will make improvements based on my testing to make sure the alarm works properly and provides a better morning experience for users.
 
 ## Skills
 
