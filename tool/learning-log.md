@@ -49,7 +49,8 @@
 * I also wonder if I can let users choose different sounds for their timer notifications.
 * Next I will experiment with the Howler.js code and test different audio features to see how they would work in my project.
 
-
+## Learning Log 2
+### 11/30/26
 
 <!-- 
 * Links you used today (websites, videos, etc)
