@@ -36,6 +36,19 @@
 
 ## Learning log 3
 ### 11/23/26:
+* Explored the official Howler.js documentation to understand more of its features and how to use them in JavaScript.
+* Looked through the Quick Start section and learned that you create a sound using new Howl() and provide an audio file through src.
+* Explored different playback options:
+   * Learned that volume controls how loud the audio is, from 0 to 1.
+   * Learned that loop: true makes a sound repeat automatically.
+   * Learned that rate() changes the playback speed, with 1 being normal speed.
+* Discovered Audio Sprites, which allow one audio file to be divided into smaller sections that can be played separately.
+* Learned that Howler.js can control multiple sounds at once and can also change individual sounds.
+* Explored the fade() method, which gradually changes the volume over a certain amount of time.
+* I wonder if I can use the fade feature to make notification sounds gradually get louder instead of playing at full volume immediately.
+* I also wonder if I can let users choose different sounds for their timer notifications.
+* Next I will experiment with the Howler.js code and test different audio features to see how they would work in my project.
+
 
 
 <!-- 
