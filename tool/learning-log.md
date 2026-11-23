@@ -34,6 +34,10 @@
 * I wonder if I can let users choose thei own notification sounds.
 * Next I will expirement and explore the howler.js documentation with its features to understand what it can do more clearly and how I could potentially use it in my project.
 
+## Learning log 3
+### 11/23/26:
+
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
