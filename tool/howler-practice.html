@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Howler Practice</title>
+<title>Howler Practice</title>
 </head>
 <body>
 
@@ -9,9 +9,9 @@
 <h1>Howler Practice</h1>
 
 
-<button onclick="playSound()">Play</button>
-<button onclick="pauseSound()">Pause</button>
-<button onclick="stopSound()">Stop</button>
+<button onclick="sound.play()">Play</button>
+<button onclick="sound.pause()">Pause</button>
+<button onclick="sound.stop()">Stop</button>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
@@ -20,44 +20,8 @@
 <script>
 var sound = new Howl({
   src: ['https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3'],
-  volume: 0.5,
-  loop: false
+  volume: 0.5
 });
-
-
-function playSound() {
-  sound.play();
-}
-
-
-function pauseSound() {
-  sound.pause();
-}
-
-
-function stopSound() {
-  sound.stop();
-}
-
-
-function changeVolume(value) {
-  sound.volume(Number(value));
-}
-
-
-function changeRate(speed) {
-  sound.rate(speed);
-}
-
-
-function toggleLoop(enabled) {
-  sound.loop(enabled);
-}
-
-
-function fadeSound() {
-  sound.fade(sound.volume(), 0, 2000);
-}
 </script>
 
 
