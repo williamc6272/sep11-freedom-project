@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,56 +17,49 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
 
 
-// Create audio
+<script>
 var sound = new Howl({
-    src: ['https://actions.google.com/sounds/v1/alarms/beep_short.ogg'],
-    volume: 0.5,
-    loop: false
+  src: ['https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3'],
+  volume: 0.5,
+  loop: false
 });
 
 
-// Play sound
 function playSound() {
-    sound.play();
+  sound.play();
 }
 
 
-// Pause sound
 function pauseSound() {
-    sound.pause();
+  sound.pause();
 }
 
 
-// Stop sound
 function stopSound() {
-    sound.stop();
+  sound.stop();
 }
 
 
-// Change volume
 function changeVolume(value) {
-    sound.volume(Number(value));
+  sound.volume(Number(value));
 }
 
 
-// Change playback speed
 function changeRate(speed) {
-    sound.rate(speed);
+  sound.rate(speed);
 }
 
 
-// Repeat sound
 function toggleLoop(enabled) {
-    sound.loop(enabled);
+  sound.loop(enabled);
 }
 
 
-// Fade out over 2 seconds
 function fadeSound() {
-    sound.fade(sound.volume(), 0, 2000);
+  sound.fade(sound.volume(), 0, 2000);
 }
+</script>
 
-playSound();
 
 </body>
 </html>
