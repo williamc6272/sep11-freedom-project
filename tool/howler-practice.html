@@ -19,17 +19,17 @@
 
 <script>
 var sound = new Howl({
-  src: ['https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3'],
+  src: ['https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg'],
   volume: 0.5
 });
 function fadeOut() {
-  sound.fade(sound.volume(), 0, 2000);
+  sound.fade(sound.volume(), 20, 2000);
 }
 
 function fadeIn() {
   sound.volume(0);
   sound.play();
-  sound.fade(0, 0.5, 2000);
+  sound.fade(0, 5, 2000);
 }
 
 </script>
